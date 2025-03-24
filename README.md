@@ -30,12 +30,12 @@ Sistema de escritorio desarrollado en **Java** bajo el enfoque de **Programació
 ---
 
 ## 📸 Capturas
-
-- **Usuario:** admin
-- **Contraseña:** admin
   
 ### 🔐 Login
 ![Login](./captures/login.JPG)
+
+- **Usuario:** admin
+- **Contraseña:** admin
 
 ### 🏠 Inicio
 ![Home Screen](./captures/main.JPG)
@@ -52,11 +52,11 @@ Sistema de escritorio desarrollado en **Java** bajo el enfoque de **Programació
 ### ✅ Confirmación de Detalles
 ![Confirmation](./captures/p4.JPG)
 
-### 🖨️ Terminar e Imprimir Ticket
+### 📤 Terminar e Imprimir Ticket
 ![Print Ticket](./captures/p5.JPG)
 
 ### 📄 Ticket en PDF
-![PDF Ticket](./screenshots/ticket_pdf.JPG)
+![PDF Ticket](./captures/ticket_pdf.JPG)
 
 ---
 
