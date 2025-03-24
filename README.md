@@ -31,29 +31,32 @@ Sistema de escritorio desarrollado en **Java** bajo el enfoque de **Programació
 
 ## 📸 Capturas
 
+- **Usuario:** admin
+- **Contraseña:** admin
+  
 ### 🔐 Login
-![Login](./captures/login.jpg)
+![Login](./captures/login.JPG)
 
 ### 🏠 Inicio
-![Home Screen](./captures/main.jpg)
+![Home Screen](./captures/main.JPG)
 
 ### 📑 Detalles de Reserva
-![Booking Details](./captures/p1.jpg)
+![Booking Details](./captures/p1.JPG)
 
 ### 📞 Información de Contacto
-![Contact Info](./captures/p2.jpg)
+![Contact Info](./captures/p2.JPG)
 
 ### 💳 Facturación
-![Billing](./captures/p3.jpg)
+![Billing](./captures/p3.JPG)
 
 ### ✅ Confirmación de Detalles
-![Confirmation](./captures/p4.jpg)
+![Confirmation](./captures/p4.JPG)
 
 ### 🖨️ Terminar e Imprimir Ticket
-![Print Ticket](./captures/p5.jpg)
+![Print Ticket](./captures/p5.JPG)
 
 ### 📄 Ticket en PDF
-![PDF Ticket](./screenshots/ticket_pdf.jpg)
+![PDF Ticket](./screenshots/ticket_pdf.JPG)
 
 ---
 
