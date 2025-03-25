@@ -388,11 +388,13 @@ public class Interfaz extends javax.swing.JFrame {
         String cantidad_pago = f_facturacion.txf_cantidad.getText();
         String tipo_pago = f_facturacion.box_pago.getSelectedItem().toString();
 
+        //Creacion de objetos
         p_cliente cliente = new p_cliente();
         p_fecha fecha = new p_fecha();
         p_detalle_reserva det_reserva = new p_detalle_reserva();
         p_pago pago = new p_pago();
 
+        //Asignacion de valores
         cliente.setNombre(nombre);
         cliente.setDni(dni);
         cliente.setEmail(email);

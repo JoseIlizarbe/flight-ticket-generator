@@ -24,7 +24,7 @@ public class frm_confirmacion extends javax.swing.JInternalFrame implements Modu
         this.setTitle("Verificar detalles de reserva");
         reserva = r;
         mostrar_detalles();
-        ((javax.swing.plaf.basic.BasicInternalFrameUI)this.getUI()).setNorthPane(null); 
+        ((javax.swing.plaf.basic.BasicInternalFrameUI) this.getUI()).setNorthPane(null);
     }
 
     /**
@@ -92,20 +92,21 @@ public class frm_confirmacion extends javax.swing.JInternalFrame implements Modu
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnEnviarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEnviarActionPerformed
-       this.datos_completos=true;
-       JOptionPane.showMessageDialog(null,"Su Ticket ha sido registrado correctamente");
+        this.datos_completos = true;
+        JOptionPane.showMessageDialog(null, "Su Ticket ha sido registrado correctamente");
     }//GEN-LAST:event_btnEnviarActionPerformed
 
     public void mostrar_detalles() {
         txta_detalles.setText("");
-        txta_detalles.append("\n * NOMBRES: "+reserva.getCliente().getNombre());
-        txta_detalles.append("\n * DESTINO: "+reserva.getDetalle_reserva().getDestino());
-        txta_detalles.append("\n * FECHA DE VIAJE: "+reserva.getFecha().getDia()+"/"+reserva.getFecha().getMes()+"/"+reserva.getFecha().getAno());
-        txta_detalles.append("\n * CLASE DE VIAJE: "+reserva.getDetalle_reserva().getClase());
-        txta_detalles.append("\n * NRO DE ASIENTOS: "+reserva.getDetalle_reserva().getAsientos());
-        txta_detalles.append("\n * TIPO DE PAGO: "+reserva.getPago().getTipo_pago());
-        txta_detalles.append("\n * TRANSACCION ID: "+reserva.getPago().getId_transaccion());
-        txta_detalles.append("\n * CANTIDAD A PAGAR: : "+"S/."+reserva.getPago().getCant_pago());
+        txta_detalles.append("\n * NOMBRES: " + reserva.getCliente().getNombre());
+        txta_detalles.append("\n * DNI: " + reserva.getCliente().getDni());
+        txta_detalles.append("\n * DESTINO: " + reserva.getDetalle_reserva().getDestino());
+        txta_detalles.append("\n * FECHA DE VIAJE: " + reserva.getFecha().getDia() + "/" + reserva.getFecha().getMes() + "/" + reserva.getFecha().getAno());
+        txta_detalles.append("\n * CLASE DE VIAJE: " + reserva.getDetalle_reserva().getClase());
+        txta_detalles.append("\n * NRO DE ASIENTOS: " + reserva.getDetalle_reserva().getAsientos());
+        txta_detalles.append("\n * TIPO DE PAGO: " + reserva.getPago().getTipo_pago());
+        txta_detalles.append("\n * TRANSACCION ID: " + reserva.getPago().getId_transaccion());
+        txta_detalles.append("\n * CANTIDAD A PAGAR: : " + "S/." + reserva.getPago().getCant_pago());
 
     }
 
